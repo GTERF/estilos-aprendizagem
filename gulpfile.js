@@ -6,6 +6,8 @@ var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 var ghPages = require('gulp-gh-pages');
+var ts = require("gulp-typescript");
+var tsProject = ts.createProject("tsconfig.json");
 
 gulp.task('html', function(){
   return gulp.src('src/*.html')
@@ -30,9 +32,16 @@ gulp.task('js', function(){
     .pipe(gulp.dest('site/js'))
 });
 
+gulp.task('ts', function () {
+  return tsProject.src()
+    .pipe(tsProject())
+    .js.pipe(gulp.dest("src/js"));
+});
+
 gulp.task('watch', function () {
     gulp.watch('src/*.html', [ 'html' ]);
     gulp.watch('src/css/*.css', [ 'css' ]);
+    gulp.watch('src/ts/*.ts', [ 'ts' ]);
     gulp.watch('src/js/*.js', [ 'js' ]);
 });
 
