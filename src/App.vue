@@ -17,9 +17,4 @@ export default {
 .container {
   max-width: 720px;
 }
-
-.questions {
-  margin-bottom: 32px;
-  margin-top: 32px;
-}
 </style>
