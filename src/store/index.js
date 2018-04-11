@@ -102,7 +102,7 @@ export default new Vuex.Store({
       {text: 'Elaboro materiais de vários formatos digitais e os coloco online em um site pessoal ou em sites que publicam páginas web.', value: '12'},
       {text: 'Termino minha pesquisa na internet quando encontro o primeiro site sobre o tema investigado.', value: '13'},
       {text: 'Busco informação em internet para refletir e gerar ideias próprias e novas.', value: '14'},
-      {text: 'Na internet busco imagens siguinificativas que me fazem refletir.', value: '15'},
+      {text: 'Na internet busco imagens significativa que me fazem refletir.', value: '15'},
       {text: 'Utilizo palavras técnicas na internet, como, por exemplo, site, web, chatear, hiperlink, etc., tanto na escrita como na conversa cotidiana.', value: '16'},
       {text: 'Planejo o tempo de navegação na internet coordenando-o com o tempo de trabalho de outras outras atividades.', value: '17'},
       {text: 'Planejo a pesquisa que realizo na internet.', value: '18'},

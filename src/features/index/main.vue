@@ -23,7 +23,7 @@ export default {
         </b-col>
         <b-col cols="8">
             <b-row class="title">
-                Conheça se estilo de aprendizagem
+                Conheça seu estilo de aprendizagem
             </b-row>
             <b-row class="info">
                 Indicado para estudantes do ensino presencial
